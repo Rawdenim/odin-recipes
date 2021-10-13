@@ -1,0 +1,1 @@
+This is David Tian's current beginner HTML project. The goal is to build a basic recipe website that consists of a main inedx page that has links to  few recipes. This will demonstrate basic HTML and Git principles.
