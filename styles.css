@@ -1,5 +1,5 @@
-li {    
-    color: green;
+li,
+h2 {    
     background-color: lightseagreen;
     text-align: center;
 }
@@ -14,4 +14,24 @@ h1 {
     margin-left: auto;
     margin-right: auto;
     width: 50%;
+}
+
+/* THE BELOW HAS BEEN COPIED CSS-TRICKS.COM */
+
+@keyframes spin {
+  from {
+    transform: rotateY(0);
+  }
+  to {
+    transform: rotateY(5turn);
+  }
+}
+
+.card {
+  animation: spin 5s ease;
+  animation-iteration-count: 1;
+}
+
+.container {
+  perspective: 1000px;
 }
