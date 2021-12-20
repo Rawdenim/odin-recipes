@@ -1,4 +1,17 @@
 li {    
     color: green;
-    background-color: grey;
+    background-color: lightseagreen;
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+    font-size: 50px;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 }
